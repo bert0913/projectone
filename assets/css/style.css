@@ -1,0 +1,72 @@
+/* 
+AUTHOR - TASK
+
+ram - top-nav and carousel
+JM - blog teaser
+Joy - you're in good company
+Wilbert - call-2-action join today
+Nicole - footer
+Aaron - snap photos adn clean code 
+*/
+*{
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  /* Color Scheme */
+  --black: #000000;
+}
+
+/* #region RESET */
+a { text-decoration: none !important; }
+/* #endregion RESET */
+
+/* #region GENERAL STYLING */
+.font-roboto { font-family: 'Roboto', sans-serif; }
+.font-domine { font-family: 'Domine', serif; }
+
+.fs-15 { font-size: 15px; }
+.fs-17 { font-size: 17px; }
+
+.bg-black { background-color: var(--black); }
+
+.on-hover-bg-black:hover { background-color: var(--black); }
+
+.tbs-2 { border-top: solid 2px var(--black); } /* Top Border Solid 2 pixel */
+/* #endregion GENERAL STYLING */
+
+/* #region TOP-NAV and CAROUSEL*/
+.logo { height: 60px; }
+.carousel-indicators { bottom: -50px; }
+.carousel-indicators li { background-color: blue !important; }
+/* #endregion TOP-NAV */
+
+/* #region BLOG-TEASER */
+
+.teaser-image{
+  width:100%;
+  max-width:530px;
+  max-height:210px;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  cursor:pointer;
+  transition: transform .2s;
+}
+
+/* #endregion BLOG-TEASER */
+
+/* #region IN-GOOD-COMPANY */
+/* #endregion IN-GOOD-COMPANY */
+
+/* #region CALL-2-ACTION */
+/* #endregion CALL-2-ACTION */
+
+/* #region SNAP-PHOTOS */
+/* #endregion SNAP-PHOTOS */
+
+/* #region FOOTER */
+/* #endregion FOOTER */
+
+/* #region MEDIA-QUERIES */
+/* #endregion MEDIA-QUERIES */
